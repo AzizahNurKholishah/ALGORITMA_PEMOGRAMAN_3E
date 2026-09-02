@@ -103,3 +103,5 @@ else:
 ## 📸 **Hasil Pengujian**
 
 Program telah diuji menggunakan beberapa kombinasi panjang sisi sesuai dengan test case yang telah ditentukan. Hasil pengujian menunjukkan bahwa program dapat menentukan jenis segitiga dengan benar berdasarkan panjang ketiga sisi yang dimasukkan.
+
+<img width="1366" height="728" alt="hasil tugas 1" src="https://github.com/user-attachments/assets/91e887f8-f355-4089-afa2-2a1243558daf" />
