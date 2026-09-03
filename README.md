@@ -49,14 +49,14 @@ flowchart TD
 
 | Test Case | Input Jari-jari | Kondisi | Hasil yang Diharapkan |
 |---|---:|---|---:|
-| 1 | 7 | r > 0 | 153.86 |
-| 2 | 10 | r > 0 | 314.0 |
-| 3 | 5 | r > 0 | 78.5 |
-| 4 | 0 | r <= 0 | Jari-jari harus lebih dari 0 |
+| 1 | 10 | r > 0 | 314.0 |
+| 2 | 0 | r <= 0 | Jari-jari harus lebih dari 0 |
 
 ## 🐍 **Implementasi Python**
 
 Program dibuat menggunakan bahasa pemrograman Python dan dijalankan melalui Visual Studio Code.
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/62858580-bbe9-49a1-8d9a-0cb10fbbdcb1" />
+
 
 Source code dapat dilihat pada **[main.py](main.py)**.
 
