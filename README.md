@@ -77,27 +77,5 @@ Implementasi program dibuat menggunakan bahasa pemrograman Python dan dijalankan
 
 Source code dapat dilihat pada **[main.py](main.py)**.
 
-```python
-a = int(input("Masukkan sisi a: "))
-b = int(input("Masukkan sisi b: "))
-c = int(input("Masukkan sisi c: "))
-
-if a <= 0 or b <= 0 or c <= 0:
-    print("Bukan segitiga")
-
-elif a + b <= c or a + c <= b or b + c <= a:
-    print("Bukan segitiga")
-
-elif a == b and b == c:
-    print("Segitiga sama sisi")
-
-elif a == b or a == c or b == c:
-    print("Segitiga sama kaki")
-
-else:
-    print("Segitiga sembarang")
-```
-
-## 📸 **Hasil Pengujian**
 
 Program telah diuji menggunakan beberapa kombinasi panjang sisi sesuai dengan test case yang telah ditentukan. Hasil pengujian menunjukkan bahwa program dapat menentukan jenis segitiga dengan benar berdasarkan panjang ketiga sisi yang dimasukkan.
