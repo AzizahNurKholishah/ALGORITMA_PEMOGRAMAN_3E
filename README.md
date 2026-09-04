@@ -55,9 +55,7 @@ END IF
 
 ## 🐍 **Implementasi Python**
 
-Implementasi program dibuat menggunakan bahasa pemrograman Python dan dijalankan melalui Visual Studio Code.
-
-Source code dapat dilihat pada **[main.py](main.py)**.
+Implementasi program dibuat menggunakan bahasa pemrograman Python dan dijalankan melalui Visual Studio Code. **[main.py](main.py)**.
 
 ## 📸 **Hasil Pengujian**
 
