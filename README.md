@@ -2,15 +2,20 @@
 
 ## 📝 **Deskripsi Masalah**
 
-Diberikan tiga buah panjang sisi, yaitu sisi a, b, dan c. Tidak semua tiga panjang sisi dapat membentuk sebuah segitiga, sehingga perlu dilakukan pemeriksaan berdasarkan syarat pembentukan segitiga. Jika ketiga sisi memenuhi syarat pembentukan segitiga, program akan menentukan jenis segitiga berdasarkan kesamaan panjang sisinya. Segitiga yang terbentuk dapat berupa segitiga sama sisi, segitiga sama kaki, atau segitiga sembarang.
+Diberikan tiga buah panjang sisi, yaitu sisi a, b, dan c. Ketiga panjang sisi tersebut belum tentu dapat membentuk sebuah segitiga. Oleh karena itu, perlu dilakukan pemeriksaan terlebih dahulu berdasarkan syarat pembentukan segitiga, yaitu jumlah panjang dua sisi harus lebih besar daripada panjang sisi ketiga.
 
-Program ini dibuat menggunakan percabangan untuk mengevaluasi setiap kondisi dan menampilkan hasil sesuai dengan tiga panjang sisi yang dimasukkan oleh pengguna.
+Jika ketiga sisi memenuhi syarat pembentukan segitiga, program akan menentukan jenis segitiga berdasarkan kesamaan panjang sisinya. Segitiga yang terbentuk dapat berupa segitiga sama sisi, segitiga sama kaki, atau segitiga sembarang.
+
+Program ini menggunakan struktur percabangan untuk memeriksa setiap kondisi secara berurutan, kemudian menampilkan hasil berdasarkan tiga panjang sisi yang dimasukkan oleh pengguna.
 
 ## 📥 **Input-Proses-Output**
 
-**Input:** Tiga panjang sisi segitiga, yaitu a, b, dan c.
+**Input:** Tiga buah panjang sisi segitiga, yaitu a, b, dan c.
 
-**Proses:** Program memeriksa apakah ketiga sisi lebih dari 0 dan memenuhi syarat pembentukan segitiga. Setelah itu, program menentukan jenis segitiga berdasarkan kesamaan panjang sisinya.
+**Proses:** 
+•	Program memeriksa apakah ketiga sisi lebih dari 0 dan memnuhi syarat pembentukan segitiga 
+
+•	Program menentukan jenis segitiga berdasarkan kesamaan panjang sisinya 
 
 **Output:** program menampilkan jenis segitiga atau keterangan bahwa ketiga sisi bukan merupakan segitiga.
 
