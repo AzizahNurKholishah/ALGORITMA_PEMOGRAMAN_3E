@@ -39,28 +39,8 @@ END IF
 
 ## 📊 **Flowchart**
 
-```mermaid
-flowchart TD
-    A([START]) --> B[/INPUT a, b, c/]
-    B --> C{a <= 0 atau b <= 0 atau c <= 0?}
+<img width="1209" height="1300" alt="flowchart pemograman" src="https://github.com/user-attachments/assets/2f3415d3-4510-4139-8700-3f63ad5bb2c6" />
 
-    C -->|Ya| D[/OUTPUT "Bukan segitiga"/]
-    C -->|Tidak| E{a + b > c dan a + c > b dan b + c > a?}
-
-    E -->|Tidak| D
-    E -->|Ya| F{a = b dan b = c?}
-
-    F -->|Ya| G[/OUTPUT "Segitiga sama sisi"/]
-    F -->|Tidak| H{a = b atau a = c atau b = c?}
-
-    H -->|Ya| I[/OUTPUT "Segitiga sama kaki"/]
-    H -->|Tidak| J[/OUTPUT "Segitiga sembarang"/]
-
-    D --> K([END])
-    G --> K
-    I --> K
-    J --> K
-```
 
 ## 🧪 **Test Case**
 
@@ -77,5 +57,9 @@ Implementasi program dibuat menggunakan bahasa pemrograman Python dan dijalankan
 
 Source code dapat dilihat pada **[main.py](main.py)**.
 
+## 📸 **Hasil Pengujian**
 
 Program telah diuji menggunakan beberapa kombinasi panjang sisi sesuai dengan test case yang telah ditentukan. Hasil pengujian menunjukkan bahwa program dapat menentukan jenis segitiga dengan benar berdasarkan panjang ketiga sisi yang dimasukkan.
+
+<img width="1366" height="728" alt="Hasil pengujian" src="https://github.com/user-attachments/assets/3b4035bc-c872-4244-92bf-ec026507f062" />
+
